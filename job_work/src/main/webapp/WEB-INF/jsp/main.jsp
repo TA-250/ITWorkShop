@@ -30,11 +30,15 @@ String errorMsg = (String) request.getAttribute("errorMsg");
 <input type="submit" value="報告する">
 </form>
 </div>
+<div class="error">
 <% if (errorMsg != null) { %>
 <p><%= errorMsg %></p>
 <% } %>
+</div>
+<div class="tweet">
 <% for (Mutter mutter : mutterList){%>
 <p><%= mutter.getUserName() %>:<%= mutter.getText() %></p>
 <% } %>
+</div>
 </body>
 </html>
