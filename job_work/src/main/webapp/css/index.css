@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center; /* 水平中央 */
     align-items: center; /* 垂直中央 */
-    background-color: #fedcbd; /* 薄いオレンジ色背景 */
+    background-color: #FBB161; /* 薄いオレンジ色背景 */
     font-family: Arial, sans-serif;
 }
 

@@ -16,7 +16,7 @@ User loginUser = (User) session.getAttribute("loginUser");
 <h1 class="header">ログイン結果</h1>
 <% if(loginUser != null) { %>
   <p>ログインに成功しました</p>
-  <p><%= loginUser.getName() %>さん、お疲れ様ですm(__)m</p>
+  <p><%= loginUser.getName() %>さん、お疲れ様です</p>
   <a href="Main">ホームへ</a>
 <% } else { %>
   <p>ユーザーID、パスワードが間違っています。</p>
